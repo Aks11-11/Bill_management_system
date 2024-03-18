@@ -67,7 +67,6 @@ Label(f, font = ("Lucida calligraphy",15,"bold"),text = "Coffee..........Rs.30/c
 Label(f, font = ("Lucida calligraphy",15,"bold"),text = "Juice..........Rs.30/glass",bg = "sky blue", fg = "brown").place(x=30,y=230)
 Label(f, font = ("Lucida calligraphy",15,"bold"),text = "Water..........Rs.20/bottle",bg = "sky blue", fg = "brown").place(x=30,y=260)
 
-
 f2 = Frame(root,bg = "dark blue",highlightbackground= "sky blue",highlightthickness=1,width =300,height=370)
 f2.place(x=800,y=100)
 
