@@ -117,12 +117,10 @@ entry_Coffee.grid(row=5,column=1)
 entry_juice.grid(row=6,column=1)
 entry_Water.grid(row=7,column=1)
 
-
 btn_reset = Button(f1,fg = "Black", bg ="Sky Blue", font =("ariel",16,'bold'),width = 10 , text = "Reset",command =Reset)
 btn_reset.grid(row=8,column=0)
 
 btn_total = Button(f1,fg = "Black", bg ="Sky Blue", font =("ariel",16,'bold'),width = 10 , text = "Total",command =Total)
 btn_total.grid(row=8,column=1)
-
 
 root.mainloop()
